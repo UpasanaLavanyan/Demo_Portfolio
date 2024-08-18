@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman','sans-serif';
+}
+
+body{
+
+    color:rgb(235, 215, 178);
+    background: url('https://wallpapercave.com/wp/wp6544942.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(87, 57, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+.logo{
+   font-size: 25px;
+   color :rgb(235, 215, 178);
+   text-decoration:none;
+   font-weight: 600px;
+
+}
+.navbar a {
+    font-size: 18px;
+    color:rgb(235, 215, 1780);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:35px;
+    transition:0.4s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(235, 139, 139);
+
+}
+.home{
+    height:100vh;
+    align-items:center;
+    padding: 0 10%;
+
+}
+.home-content{
+    width: 500px;
+}
+
+.home-content h1{
+    font-size:56px;
+    font-weight:700;
+    line-height: 1.2;
+    margin:200px 20px 20px 0px;
+    color:burlywood;
+
+}
+.home-content h3{
+    font-size: 32px;;
+    font-weight: 700;
+    color:hsl(180, 100%, 50%);
+    margin: 20px 0 40px
+}
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+
+}
+.home-content .btn{
+    width: 150px;
+    height: 150px;
+
+}
+
+.home-sci{
+    position: relative;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid hsl(180, 100%, 50%);
+    border-radius: 50%;
+    font-size: 20px;
+    color:rgb(135, 202, 222);
+    text-decoration: none;
+    z-index:1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+.home-sci a::before {
+    content:' ';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    background: rgb(135, 202, 222);
+    color:black;
+    z-index: -1;
+    transition: .5s;
+}
+
+#Academics table {
+    border:2px solidseashell;
+    font-size: 25px;
+    text-align: center;
+    width:550px;
+    color:seashell;
+    margin: 25px 25px 25px 250px;
+
+
+}
+#Academics th,#Academics td{
+    border:2px solid seashell;
+    padding:20px;
+    
+}
+h1{
+    font-size: 2.5em;
+    color:rgb(135, 202, 222);
+    
+}
+
+h2{
+    text-align: left;
+    color:rgb(135, 202, 222) ;
+}
+#about{
+    width:50%;
+    float: left;
+    margin-right: 50%;
+    
+}
+#divabout{
+    width:100%;
+    overflow: auto;
+}
+
